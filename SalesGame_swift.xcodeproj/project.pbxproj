@@ -1,0 +1,1364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9604C2CB1C339EE8007D3998 /* SubCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9604C2CA1C339EE8007D3998 /* SubCategory.swift */; };
+		9604C2CD1C33A0C0007D3998 /* Badges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9604C2CC1C33A0C0007D3998 /* Badges.swift */; };
+		963D3D801C14ACA200486747 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963D3D7F1C14ACA200486747 /* CategoryCollectionViewCell.swift */; };
+		963D3D821C14AD0200486747 /* SubCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963D3D811C14AD0200486747 /* SubCategoryViewController.swift */; };
+		963D3D841C14AE5700486747 /* CategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963D3D831C14AE5700486747 /* CategoryCollectionViewController.swift */; };
+		963D3D861C15039D00486747 /* SubCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963D3D851C15039D00486747 /* SubCategoryCollectionViewCell.swift */; };
+		963D3D8C1C193DB600486747 /* RankingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963D3D8B1C193DB600486747 /* RankingsViewController.swift */; };
+		963D3D8E1C19418A00486747 /* RankingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963D3D8D1C19418A00486747 /* RankingsTableViewCell.swift */; };
+		9651094F1C1E364B002B2B10 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9651094E1C1E364B002B2B10 /* Category.swift */; };
+		965109531C235317002B2B10 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965109521C235317002B2B10 /* Launch Screen.storyboard */; };
+		965109551C23C3B4002B2B10 /* ChallengeOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965109541C23C3B4002B2B10 /* ChallengeOptionsViewController.swift */; };
+		965109571C23C730002B2B10 /* ChallengeRandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965109561C23C730002B2B10 /* ChallengeRandomViewController.swift */; };
+		9652C8701C3F225E0037A49C /* FriendChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9652C86F1C3F225E0037A49C /* FriendChallengeViewController.swift */; };
+		965778B61C3B977600282B9F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965778B51C3B977600282B9F /* Game.swift */; };
+		965778BD1C3C4E0800282B9F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965778BC1C3C4E0800282B9F /* Question.swift */; };
+		9660B18A1C4019B4004028F4 /* CategoryChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660B1891C4019B4004028F4 /* CategoryChallengeViewController.swift */; };
+		9660B18C1C4069DD004028F4 /* SubCategoryChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660B18B1C4069DD004028F4 /* SubCategoryChallengeViewController.swift */; };
+		9660B18F1C407606004028F4 /* StartChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660B18E1C407606004028F4 /* StartChallengeViewController.swift */; };
+		9660B1931C430D2B004028F4 /* QuestionChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660B1921C430D2B004028F4 /* QuestionChallengeViewController.swift */; };
+		9660B1971C432932004028F4 /* ScoreChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660B1961C432932004028F4 /* ScoreChallengeViewController.swift */; };
+		9660B19A1C43580B004028F4 /* ChallengeHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660B1991C43580B004028F4 /* ChallengeHistoryViewController.swift */; };
+		9660B19C1C435A58004028F4 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660B19B1C435A58004028F4 /* Challenge.swift */; };
+		9660B19E1C435FB6004028F4 /* ChallengeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660B19D1C435FB6004028F4 /* ChallengeTableViewCell.swift */; };
+		9660B1A01C44407B004028F4 /* ResumeChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660B19F1C44407B004028F4 /* ResumeChallengeViewController.swift */; };
+		966D66A11C24603F00BC58CB /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D668D1C24603F00BC58CB /* IQNSArray+Sort.swift */; };
+		966D66A21C24603F00BC58CB /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D668E1C24603F00BC58CB /* IQUITextFieldView+Additions.swift */; };
+		966D66A31C24603F00BC58CB /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D668F1C24603F00BC58CB /* IQUIView+Hierarchy.swift */; };
+		966D66A41C24603F00BC58CB /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D66901C24603F00BC58CB /* IQUIViewController+Additions.swift */; };
+		966D66A51C24603F00BC58CB /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D66911C24603F00BC58CB /* IQUIWindow+Hierarchy.swift */; };
+		966D66A61C24603F00BC58CB /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D66931C24603F00BC58CB /* IQKeyboardManagerConstants.swift */; };
+		966D66A71C24603F00BC58CB /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D66941C24603F00BC58CB /* IQKeyboardManagerConstantsInternal.swift */; };
+		966D66A81C24603F00BC58CB /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D66951C24603F00BC58CB /* IQKeyboardManager.swift */; };
+		966D66A91C24603F00BC58CB /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D66961C24603F00BC58CB /* IQKeyboardReturnKeyHandler.swift */; };
+		966D66AA1C24603F00BC58CB /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D66981C24603F00BC58CB /* IQTextView.swift */; };
+		966D66AB1C24603F00BC58CB /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D669A1C24603F00BC58CB /* IQBarButtonItem.swift */; };
+		966D66AC1C24603F00BC58CB /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D669B1C24603F00BC58CB /* IQTitleBarButtonItem.swift */; };
+		966D66AD1C24603F00BC58CB /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D669C1C24603F00BC58CB /* IQToolbar.swift */; };
+		966D66AE1C24603F00BC58CB /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D669D1C24603F00BC58CB /* IQUIView+IQKeyboardToolbar.swift */; };
+		966D66AF1C24603F00BC58CB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 966D669F1C24603F00BC58CB /* Info.plist */; };
+		966D66B01C24603F00BC58CB /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 966D66A01C24603F00BC58CB /* IQKeyboardManager.bundle */; };
+		9676C74B1C279D8700E41CF8 /* CheckAnswersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9676C74A1C279D8700E41CF8 /* CheckAnswersViewController.swift */; };
+		96987DC11C2B406F00BBD701 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969298EA1C2A4EED00935B20 /* Charts.framework */; };
+		96987DC21C2B406F00BBD701 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 969298EA1C2A4EED00935B20 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9699E5E81C3AD95C00549616 /* PhotoTakingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9699E5E71C3AD95C00549616 /* PhotoTakingHelper.swift */; };
+		9699E5EA1C3B325D00549616 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9699E5E91C3B325D00549616 /* FriendsViewController.swift */; };
+		9699E5EC1C3B5E4C00549616 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9699E5EB1C3B5E4C00549616 /* FriendTableViewCell.swift */; };
+		9699E5EE1C3B630E00549616 /* FriendProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9699E5ED1C3B630E00549616 /* FriendProfileViewController.swift */; };
+		9699E5F11C3B6D9200549616 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9699E5F01C3B6D9200549616 /* UserViewController.swift */; };
+		9699E5F31C3B6E1D00549616 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9699E5F21C3B6E1D00549616 /* UserTableViewCell.swift */; };
+		969A74521C01075300FCBD26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969A74501C01075300FCBD26 /* Main.storyboard */; };
+		969A7CA11C062A6000FCBD26 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 969A7CA01C062A6000FCBD26 /* SWRevealViewController.m */; };
+		969A7CA31C0630A500FCBD26 /* SliderMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969A7CA21C0630A500FCBD26 /* SliderMenuViewController.swift */; };
+		969A7CA91C06643000FCBD26 /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969A7CA81C06643000FCBD26 /* BackTableVC.swift */; };
+		96A2A3F91BE341F80021E32C /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A2A3F81BE341F80021E32C /* SummaryViewController.swift */; };
+		96B0FA0C1BFC78E300371660 /* GameHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B0FA0B1BFC78E300371660 /* GameHistoryViewController.swift */; };
+		96B0FA0E1BFC79AC00371660 /* GameHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B0FA0D1BFC79AC00371660 /* GameHistoryTableViewCell.swift */; };
+		96B1C2861C48BB490062E521 /* SubCategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B1C2851C48BB490062E521 /* SubCategoryListViewController.swift */; };
+		96BC5A3A1C34C6D800C59078 /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BC5A391C34C6D800C59078 /* CheckViewController.swift */; };
+		96C4F3C11BF2C422009E73CD /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C4F3C01BF2C422009E73CD /* LocalAuthentication.framework */; };
+		96C4F3C31BF304CE009E73CD /* SelectSubCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4F3C21BF304CE009E73CD /* SelectSubCategoryViewController.swift */; };
+		96C4F3D51BF45459009E73CD /* TotalBadgesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4F3D41BF45459009E73CD /* TotalBadgesViewController.swift */; };
+		96C4F3D71BF45541009E73CD /* TotalBadgesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4F3D61BF45541009E73CD /* TotalBadgesTableViewCell.swift */; };
+		96D71D471BFA559100675A15 /* SearchCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D71D461BFA559100675A15 /* SearchCategoryViewController.swift */; };
+		96D71D4C1BFAAF3800675A15 /* SearchSubCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D71D4B1BFAAF3800675A15 /* SearchSubCategoryViewController.swift */; };
+		96DC25FC1BF1C67500D3F0CC /* BadgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DC25FB1BF1C67500D3F0CC /* BadgeViewController.swift */; };
+		96DC25FE1BF1C8C200D3F0CC /* BadgeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DC25FD1BF1C8C200D3F0CC /* BadgeTableViewCell.swift */; };
+		96DD46111BD60F01006B97F2 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD46101BD60F01006B97F2 /* ResetPasswordViewController.swift */; };
+		96DD46141BD62088006B97F2 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD46131BD62088006B97F2 /* HelpViewController.swift */; };
+		96DD461A1BD658C0006B97F2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD46191BD658C0006B97F2 /* ProfileViewController.swift */; };
+		96DD46231BD71402006B97F2 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DD46221BD71402006B97F2 /* EditProfileViewController.swift */; };
+		96FBA8B21C28ED6E00B3D6F2 /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBA8B11C28ED6E00B3D6F2 /* ReviewTableViewCell.swift */; };
+		96FBA8B91C29048C00B3D6F2 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBA8B81C29048C00B3D6F2 /* Friend.swift */; };
+		BA1DA1E81BA5337000AF7A62 /* OwnScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1DA1E71BA5337000AF7A62 /* OwnScoreViewController.swift */; };
+		BA1DA1EB1BA5344800AF7A62 /* HighScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1DA1EA1BA5344800AF7A62 /* HighScoreViewController.swift */; };
+		BA1DA1ED1BA54DBB00AF7A62 /* HighScoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1DA1EC1BA54DBB00AF7A62 /* HighScoreTableViewCell.swift */; };
+		BA512E5F1BA597DD008AE31B /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA512E5E1BA597DD008AE31B /* SettingViewController.swift */; };
+		BA512E621BA59D6F008AE31B /* UtilityClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BA512E611BA59D6F008AE31B /* UtilityClass.m */; };
+		BA512E661BA59E13008AE31B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BA512E651BA59E13008AE31B /* MBProgressHUD.m */; };
+		BA512E7F1BA59E43008AE31B /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BA512E691BA59E43008AE31B /* IQBarButtonItem.m */; };
+		BA512E811BA59E43008AE31B /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA512E6C1BA59E43008AE31B /* IQKeyboardManager.m */; };
+		BA512E821BA59E43008AE31B /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = BA512E701BA59E43008AE31B /* IQNSArray+Sort.m */; };
+		BA512E831BA59E43008AE31B /* IQSegmentedNextPrevious.m in Sources */ = {isa = PBXBuildFile; fileRef = BA512E721BA59E43008AE31B /* IQSegmentedNextPrevious.m */; };
+		BA512E841BA59E43008AE31B /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA512E741BA59E43008AE31B /* IQTextView.m */; };
+		BA512E851BA59E43008AE31B /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BA512E761BA59E43008AE31B /* IQTitleBarButtonItem.m */; };
+		BA512E861BA59E43008AE31B /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = BA512E781BA59E43008AE31B /* IQToolbar.m */; };
+		BA512E871BA59E43008AE31B /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA512E7A1BA59E43008AE31B /* IQUIView+Hierarchy.m */; };
+		BA512E881BA59E43008AE31B /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = BA512E7C1BA59E43008AE31B /* IQUIView+IQKeyboardToolbar.m */; };
+		BA512E891BA59E43008AE31B /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA512E7E1BA59E43008AE31B /* IQUIWindow+Hierarchy.m */; };
+		BA512E8B1BA5C054008AE31B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BA512E8A1BA5C054008AE31B /* Default-568h@2x.png */; };
+		BA512E911BA5EA23008AE31B /* Main_ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA512E8F1BA5EA23008AE31B /* Main_ipad.storyboard */; };
+		BAB91BA41BA271DB0033DCA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB91BA31BA271DB0033DCA6 /* AppDelegate.swift */; };
+		BAB91BAB1BA271DB0033DCA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB91BAA1BA271DB0033DCA6 /* Images.xcassets */; };
+		BAB91BD81BA273010033DCA6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB91BD61BA273010033DCA6 /* Bolts.framework */; };
+		BAB91BD91BA273010033DCA6 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB91BD71BA273010033DCA6 /* Parse.framework */; };
+		BAB91BDB1BA2730C0033DCA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB91BDA1BA2730C0033DCA6 /* UIKit.framework */; };
+		BAB91BDD1BA273200033DCA6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB91BDC1BA273200033DCA6 /* SystemConfiguration.framework */; };
+		BAB91BDF1BA2732B0033DCA6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB91BDE1BA2732B0033DCA6 /* StoreKit.framework */; };
+		BAB91BE11BA273330033DCA6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB91BE01BA273330033DCA6 /* Security.framework */; };
+		BAB91BE31BA273390033DCA6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB91BE21BA273390033DCA6 /* QuartzCore.framework */; };
+		BAB91BE51BA273480033DCA6 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB91BE41BA273480033DCA6 /* libstdc++.6.dylib */; };
+		BAB91BE71BA273520033DCA6 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB91BE61BA273520033DCA6 /* libz.1.1.3.dylib */; };
+		BAB91BE91BA2735E0033DCA6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB91BE81BA2735E0033DCA6 /* libsqlite3.dylib */; };
+		BAB91BEB1BA273660033DCA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB91BEA1BA273660033DCA6 /* Foundation.framework */; };
+		BAB91BED1BA2736F0033DCA6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB91BEC1BA2736F0033DCA6 /* CoreLocation.framework */; };
+		BAB91BEF1BA273760033DCA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB91BEE1BA273760033DCA6 /* CoreGraphics.framework */; };
+		BAB91BF11BA2737F0033DCA6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB91BF01BA2737F0033DCA6 /* CFNetwork.framework */; };
+		BAB91BF31BA273850033DCA6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB91BF21BA273850033DCA6 /* AudioToolbox.framework */; };
+		BAB91BF51BA2738F0033DCA6 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB91BF41BA2738F0033DCA6 /* Accounts.framework */; };
+		BAB91BF71BA273970033DCA6 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB91BF61BA273970033DCA6 /* Social.framework */; };
+		BAB91BF91BA2739E0033DCA6 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB91BF81BA2739E0033DCA6 /* AdSupport.framework */; };
+		BAEA6E441BA3419800558565 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEA6E431BA3419800558565 /* LoginViewController.swift */; };
+		BAEA6E461BA3425400558565 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEA6E451BA3425400558565 /* SignUpViewController.swift */; };
+		BAEA6E481BA347EB00558565 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEA6E471BA347EB00558565 /* HomeViewController.swift */; };
+		BAEA6E4A1BA34B8000558565 /* AllCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEA6E491BA34B8000558565 /* AllCategoryViewController.swift */; };
+		BAEA6E4C1BA3523B00558565 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEA6E4B1BA3523B00558565 /* QuestionViewController.swift */; };
+		BAEA6E4E1BA3532300558565 /* GeneralClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEA6E4D1BA3532300558565 /* GeneralClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		963932F01C3459A800CD7677 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 963932EA1C3459A700CD7677 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		963932F21C3459A800CD7677 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 963932EA1C3459A700CD7677 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		963932F41C3459A800CD7677 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 963932EA1C3459A700CD7677 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
+		};
+		969298E91C2A4EED00935B20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 969298E31C2A4EED00935B20 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		969298EB1C2A4EED00935B20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 969298E31C2A4EED00935B20 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		969298ED1C2A4EED00935B20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 969298E31C2A4EED00935B20 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
+		};
+		96987DC31C2B406F00BBD701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 969298E31C2A4EED00935B20 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA8EC3F1A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		96987DC51C2B406F00BBD701 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				96987DC21C2B406F00BBD701 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9604C2CA1C339EE8007D3998 /* SubCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategory.swift; sourceTree = "<group>"; };
+		9604C2CC1C33A0C0007D3998 /* Badges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Badges.swift; sourceTree = "<group>"; };
+		963932EA1C3459A700CD7677 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../Downloads/ios-charts-master 4/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
+		963D3D7F1C14ACA200486747 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryCollectionViewCell.swift; path = ViewControllers/AllCategoryVC/CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		963D3D811C14AD0200486747 /* SubCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubCategoryViewController.swift; path = AllCategoryVC/SubCategoryViewController.swift; sourceTree = "<group>"; };
+		963D3D831C14AE5700486747 /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = "<group>"; };
+		963D3D851C15039D00486747 /* SubCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubCategoryCollectionViewCell.swift; path = ViewControllers/AllCategoryVC/SubCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		963D3D8B1C193DB600486747 /* RankingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingsViewController.swift; sourceTree = "<group>"; };
+		963D3D8D1C19418A00486747 /* RankingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RankingsTableViewCell.swift; path = ViewControllers/RankingsTableViewCell.swift; sourceTree = "<group>"; };
+		9651094E1C1E364B002B2B10 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Category.swift; path = ViewControllers/AllCategoryVC/Category.swift; sourceTree = "<group>"; };
+		965109521C235317002B2B10 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "../Launch Screen.storyboard"; sourceTree = "<group>"; };
+		965109541C23C3B4002B2B10 /* ChallengeOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeOptionsViewController.swift; sourceTree = "<group>"; };
+		965109561C23C730002B2B10 /* ChallengeRandomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeRandomViewController.swift; sourceTree = "<group>"; };
+		9652C86F1C3F225E0037A49C /* FriendChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendChallengeViewController.swift; sourceTree = "<group>"; };
+		965778B51C3B977600282B9F /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		965778BC1C3C4E0800282B9F /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		9660B1891C4019B4004028F4 /* CategoryChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryChallengeViewController.swift; sourceTree = "<group>"; };
+		9660B18B1C4069DD004028F4 /* SubCategoryChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategoryChallengeViewController.swift; sourceTree = "<group>"; };
+		9660B18E1C407606004028F4 /* StartChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartChallengeViewController.swift; sourceTree = "<group>"; };
+		9660B1921C430D2B004028F4 /* QuestionChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionChallengeViewController.swift; sourceTree = "<group>"; };
+		9660B1961C432932004028F4 /* ScoreChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreChallengeViewController.swift; sourceTree = "<group>"; };
+		9660B1991C43580B004028F4 /* ChallengeHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeHistoryViewController.swift; sourceTree = "<group>"; };
+		9660B19B1C435A58004028F4 /* Challenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		9660B19D1C435FB6004028F4 /* ChallengeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeTableViewCell.swift; sourceTree = "<group>"; };
+		9660B19F1C44407B004028F4 /* ResumeChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumeChallengeViewController.swift; sourceTree = "<group>"; };
+		966D668D1C24603F00BC58CB /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		966D668E1C24603F00BC58CB /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		966D668F1C24603F00BC58CB /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		966D66901C24603F00BC58CB /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		966D66911C24603F00BC58CB /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
+		966D66931C24603F00BC58CB /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		966D66941C24603F00BC58CB /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		966D66951C24603F00BC58CB /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		966D66961C24603F00BC58CB /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		966D66981C24603F00BC58CB /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		966D669A1C24603F00BC58CB /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		966D669B1C24603F00BC58CB /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		966D669C1C24603F00BC58CB /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		966D669D1C24603F00BC58CB /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		966D669F1C24603F00BC58CB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966D66A01C24603F00BC58CB /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		9676C74A1C279D8700E41CF8 /* CheckAnswersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckAnswersViewController.swift; sourceTree = "<group>"; };
+		969298E31C2A4EED00935B20 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../Downloads/ios-charts-master 3/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
+		9699E5E71C3AD95C00549616 /* PhotoTakingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTakingHelper.swift; sourceTree = "<group>"; };
+		9699E5E91C3B325D00549616 /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		9699E5EB1C3B5E4C00549616 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		9699E5ED1C3B630E00549616 /* FriendProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendProfileViewController.swift; sourceTree = "<group>"; };
+		9699E5F01C3B6D9200549616 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		9699E5F21C3B6E1D00549616 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		969A74511C01075300FCBD26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		969A7C9F1C062A6000FCBD26 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		969A7CA01C062A6000FCBD26 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		969A7CA21C0630A500FCBD26 /* SliderMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderMenuViewController.swift; sourceTree = "<group>"; };
+		969A7CA81C06643000FCBD26 /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackTableVC.swift; path = ViewControllers/BackTableVC.swift; sourceTree = "<group>"; };
+		96A2A3F81BE341F80021E32C /* SummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		96B0FA0B1BFC78E300371660 /* GameHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameHistoryViewController.swift; sourceTree = "<group>"; };
+		96B0FA0D1BFC79AC00371660 /* GameHistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameHistoryTableViewCell.swift; path = ViewControllers/GameHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		96B1C2851C48BB490062E521 /* SubCategoryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCategoryListViewController.swift; sourceTree = "<group>"; };
+		96BC5A391C34C6D800C59078 /* CheckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
+		96C4F3C01BF2C422009E73CD /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		96C4F3C21BF304CE009E73CD /* SelectSubCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSubCategoryViewController.swift; sourceTree = "<group>"; };
+		96C4F3D41BF45459009E73CD /* TotalBadgesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalBadgesViewController.swift; sourceTree = "<group>"; };
+		96C4F3D61BF45541009E73CD /* TotalBadgesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TotalBadgesTableViewCell.swift; path = ViewControllers/TotalBadgesTableViewCell.swift; sourceTree = "<group>"; };
+		96D71D461BFA559100675A15 /* SearchCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCategoryViewController.swift; sourceTree = "<group>"; };
+		96D71D4B1BFAAF3800675A15 /* SearchSubCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchSubCategoryViewController.swift; sourceTree = "<group>"; };
+		96DC25FB1BF1C67500D3F0CC /* BadgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeViewController.swift; sourceTree = "<group>"; };
+		96DC25FD1BF1C8C200D3F0CC /* BadgeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BadgeTableViewCell.swift; path = ViewControllers/BadgeTableViewCell.swift; sourceTree = "<group>"; };
+		96DD46101BD60F01006B97F2 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		96DD46131BD62088006B97F2 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		96DD46191BD658C0006B97F2 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		96DD46221BD71402006B97F2 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		96FBA8B11C28ED6E00B3D6F2 /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReviewTableViewCell.swift; path = ViewControllers/ReviewTableViewCell.swift; sourceTree = "<group>"; };
+		96FBA8B81C29048C00B3D6F2 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Friend.swift; path = ViewControllers/Friend.swift; sourceTree = "<group>"; };
+		BA1DA1E71BA5337000AF7A62 /* OwnScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwnScoreViewController.swift; sourceTree = "<group>"; };
+		BA1DA1EA1BA5344800AF7A62 /* HighScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighScoreViewController.swift; sourceTree = "<group>"; };
+		BA1DA1EC1BA54DBB00AF7A62 /* HighScoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HighScoreTableViewCell.swift; path = ViewControllers/HighScoreVC/HighScoreTableViewCell.swift; sourceTree = "<group>"; };
+		BA512E5E1BA597DD008AE31B /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		BA512E601BA59D6F008AE31B /* UtilityClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityClass.h; sourceTree = "<group>"; };
+		BA512E611BA59D6F008AE31B /* UtilityClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityClass.m; sourceTree = "<group>"; };
+		BA512E641BA59E13008AE31B /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		BA512E651BA59E13008AE31B /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		BA512E681BA59E43008AE31B /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		BA512E691BA59E43008AE31B /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		BA512E6A1BA59E43008AE31B /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		BA512E6B1BA59E43008AE31B /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		BA512E6C1BA59E43008AE31B /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		BA512E6D1BA59E43008AE31B /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		BA512E6E1BA59E43008AE31B /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		BA512E6F1BA59E43008AE31B /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		BA512E701BA59E43008AE31B /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		BA512E711BA59E43008AE31B /* IQSegmentedNextPrevious.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQSegmentedNextPrevious.h; sourceTree = "<group>"; };
+		BA512E721BA59E43008AE31B /* IQSegmentedNextPrevious.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQSegmentedNextPrevious.m; sourceTree = "<group>"; };
+		BA512E731BA59E43008AE31B /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		BA512E741BA59E43008AE31B /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		BA512E751BA59E43008AE31B /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		BA512E761BA59E43008AE31B /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		BA512E771BA59E43008AE31B /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		BA512E781BA59E43008AE31B /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		BA512E791BA59E43008AE31B /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		BA512E7A1BA59E43008AE31B /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		BA512E7B1BA59E43008AE31B /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		BA512E7C1BA59E43008AE31B /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		BA512E7D1BA59E43008AE31B /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		BA512E7E1BA59E43008AE31B /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		BA512E8A1BA5C054008AE31B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BA512E901BA5EA23008AE31B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_ipad.storyboard; sourceTree = "<group>"; };
+		BA512E921BA5EBEE008AE31B /* checkDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = checkDevice.h; sourceTree = "<group>"; };
+		BAB91B9E1BA271DB0033DCA6 /* SalesGame_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalesGame_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB91BA21BA271DB0033DCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB91BA31BA271DB0033DCA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAB91BAA1BA271DB0033DCA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BAB91BB81BA271DB0033DCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB91BB91BA271DB0033DCA6 /* SalesGame_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesGame_swiftTests.swift; sourceTree = "<group>"; };
+		BAB91BD61BA273010033DCA6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		BAB91BD71BA273010033DCA6 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		BAB91BDA1BA2730C0033DCA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BAB91BDC1BA273200033DCA6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BAB91BDE1BA2732B0033DCA6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BAB91BE01BA273330033DCA6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BAB91BE21BA273390033DCA6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BAB91BE41BA273480033DCA6 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		BAB91BE61BA273520033DCA6 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		BAB91BE81BA2735E0033DCA6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		BAB91BEA1BA273660033DCA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BAB91BEC1BA2736F0033DCA6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BAB91BEE1BA273760033DCA6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BAB91BF01BA2737F0033DCA6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BAB91BF21BA273850033DCA6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BAB91BF41BA2738F0033DCA6 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		BAB91BF61BA273970033DCA6 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		BAB91BF81BA2739E0033DCA6 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		BAB91BFA1BA273B20033DCA6 /* SalesGame_swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SalesGame_swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		BAEA6E431BA3419800558565 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BAEA6E451BA3425400558565 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BAEA6E471BA347EB00558565 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BAEA6E491BA34B8000558565 /* AllCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllCategoryViewController.swift; sourceTree = "<group>"; };
+		BAEA6E4B1BA3523B00558565 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		BAEA6E4D1BA3532300558565 /* GeneralClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAB91B9B1BA271DB0033DCA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C4F3C11BF2C422009E73CD /* LocalAuthentication.framework in Frameworks */,
+				BAB91BF91BA2739E0033DCA6 /* AdSupport.framework in Frameworks */,
+				BAB91BF71BA273970033DCA6 /* Social.framework in Frameworks */,
+				BAB91BF51BA2738F0033DCA6 /* Accounts.framework in Frameworks */,
+				BAB91BF31BA273850033DCA6 /* AudioToolbox.framework in Frameworks */,
+				BAB91BF11BA2737F0033DCA6 /* CFNetwork.framework in Frameworks */,
+				BAB91BEF1BA273760033DCA6 /* CoreGraphics.framework in Frameworks */,
+				BAB91BED1BA2736F0033DCA6 /* CoreLocation.framework in Frameworks */,
+				BAB91BEB1BA273660033DCA6 /* Foundation.framework in Frameworks */,
+				BAB91BE91BA2735E0033DCA6 /* libsqlite3.dylib in Frameworks */,
+				BAB91BE71BA273520033DCA6 /* libz.1.1.3.dylib in Frameworks */,
+				BAB91BE51BA273480033DCA6 /* libstdc++.6.dylib in Frameworks */,
+				BAB91BE31BA273390033DCA6 /* QuartzCore.framework in Frameworks */,
+				BAB91BE11BA273330033DCA6 /* Security.framework in Frameworks */,
+				BAB91BDF1BA2732B0033DCA6 /* StoreKit.framework in Frameworks */,
+				BAB91BDD1BA273200033DCA6 /* SystemConfiguration.framework in Frameworks */,
+				BAB91BDB1BA2730C0033DCA6 /* UIKit.framework in Frameworks */,
+				96987DC11C2B406F00BBD701 /* Charts.framework in Frameworks */,
+				BAB91BD91BA273010033DCA6 /* Parse.framework in Frameworks */,
+				BAB91BD81BA273010033DCA6 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9604C2C51C3399AB007D3998 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				96FBA8B81C29048C00B3D6F2 /* Friend.swift */,
+				9651094E1C1E364B002B2B10 /* Category.swift */,
+				9604C2CA1C339EE8007D3998 /* SubCategory.swift */,
+				9604C2CC1C33A0C0007D3998 /* Badges.swift */,
+				965778B51C3B977600282B9F /* Game.swift */,
+				965778BC1C3C4E0800282B9F /* Question.swift */,
+				9660B19B1C435A58004028F4 /* Challenge.swift */,
+			);
+			name = Modals;
+			sourceTree = "<group>";
+		};
+		9604C2C61C3399F5007D3998 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				969A7CA81C06643000FCBD26 /* BackTableVC.swift */,
+				96DC25FD1BF1C8C200D3F0CC /* BadgeTableViewCell.swift */,
+				963D3D7F1C14ACA200486747 /* CategoryCollectionViewCell.swift */,
+				9660B19D1C435FB6004028F4 /* ChallengeTableViewCell.swift */,
+				96B0FA0D1BFC79AC00371660 /* GameHistoryTableViewCell.swift */,
+				BA1DA1EC1BA54DBB00AF7A62 /* HighScoreTableViewCell.swift */,
+				963D3D8D1C19418A00486747 /* RankingsTableViewCell.swift */,
+				96FBA8B11C28ED6E00B3D6F2 /* ReviewTableViewCell.swift */,
+				963D3D851C15039D00486747 /* SubCategoryCollectionViewCell.swift */,
+				96C4F3D61BF45541009E73CD /* TotalBadgesTableViewCell.swift */,
+				9699E5EB1C3B5E4C00549616 /* FriendTableViewCell.swift */,
+				9699E5F21C3B6E1D00549616 /* UserTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		96212CEF1BD5D2C60034EA4B /* SubCategoryVC */ = {
+			isa = PBXGroup;
+			children = (
+				963D3D811C14AD0200486747 /* SubCategoryViewController.swift */,
+				96D71D4B1BFAAF3800675A15 /* SearchSubCategoryViewController.swift */,
+				96B1C2851C48BB490062E521 /* SubCategoryListViewController.swift */,
+			);
+			name = SubCategoryVC;
+			sourceTree = "<group>";
+		};
+		963932EB1C3459A700CD7677 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				963932F11C3459A800CD7677 /* Charts.framework */,
+				963932F31C3459A800CD7677 /* Charts.framework */,
+				963932F51C3459A800CD7677 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		963D3D8A1C193D8100486747 /* GameStartVC */ = {
+			isa = PBXGroup;
+			children = (
+				96C4F3C21BF304CE009E73CD /* SelectSubCategoryViewController.swift */,
+				963D3D8B1C193DB600486747 /* RankingsViewController.swift */,
+			);
+			name = GameStartVC;
+			sourceTree = "<group>";
+		};
+		9652C86E1C3F22230037A49C /* Challenge Friend */ = {
+			isa = PBXGroup;
+			children = (
+				9652C86F1C3F225E0037A49C /* FriendChallengeViewController.swift */,
+			);
+			name = "Challenge Friend";
+			sourceTree = "<group>";
+		};
+		9659FC851BD7600E0068C72B /* ChallengeVC */ = {
+			isa = PBXGroup;
+			children = (
+				9660B1981C4357E9004028F4 /* Challenge History */,
+				965109541C23C3B4002B2B10 /* ChallengeOptionsViewController.swift */,
+				9652C86E1C3F22230037A49C /* Challenge Friend */,
+				9660B1901C4174DB004028F4 /* Challenge Random */,
+				96C4F3C61BF33DC3009E73CD /* ChallengeCategoryVC */,
+				96C4F3CB1BF34068009E73CD /* ChallengeSubCategoryVC */,
+				9660B18D1C4075E0004028F4 /* Challenge Start / Resume */,
+				9660B1911C430D09004028F4 /* Challenge Question */,
+				9660B1951C432916004028F4 /* Challenge Score */,
+			);
+			name = ChallengeVC;
+			sourceTree = "<group>";
+		};
+		9660B18D1C4075E0004028F4 /* Challenge Start / Resume */ = {
+			isa = PBXGroup;
+			children = (
+				9660B18E1C407606004028F4 /* StartChallengeViewController.swift */,
+				9660B19F1C44407B004028F4 /* ResumeChallengeViewController.swift */,
+			);
+			name = "Challenge Start / Resume";
+			sourceTree = "<group>";
+		};
+		9660B1901C4174DB004028F4 /* Challenge Random */ = {
+			isa = PBXGroup;
+			children = (
+				965109561C23C730002B2B10 /* ChallengeRandomViewController.swift */,
+			);
+			name = "Challenge Random";
+			sourceTree = "<group>";
+		};
+		9660B1911C430D09004028F4 /* Challenge Question */ = {
+			isa = PBXGroup;
+			children = (
+				9660B1921C430D2B004028F4 /* QuestionChallengeViewController.swift */,
+			);
+			name = "Challenge Question";
+			sourceTree = "<group>";
+		};
+		9660B1941C431F31004028F4 /* Game VCs */ = {
+			isa = PBXGroup;
+			children = (
+				BAEA6E3D1BA3417700558565 /* CategoryVC */,
+				96212CEF1BD5D2C60034EA4B /* SubCategoryVC */,
+				963D3D8A1C193D8100486747 /* GameStartVC */,
+				BAEA6E401BA3417700558565 /* QuestionVC */,
+				96A2A3F71BE341D70021E32C /* SummaryVC */,
+			);
+			name = "Game VCs";
+			sourceTree = "<group>";
+		};
+		9660B1951C432916004028F4 /* Challenge Score */ = {
+			isa = PBXGroup;
+			children = (
+				9660B1961C432932004028F4 /* ScoreChallengeViewController.swift */,
+			);
+			name = "Challenge Score";
+			sourceTree = "<group>";
+		};
+		9660B1981C4357E9004028F4 /* Challenge History */ = {
+			isa = PBXGroup;
+			children = (
+				9660B1991C43580B004028F4 /* ChallengeHistoryViewController.swift */,
+			);
+			name = "Challenge History";
+			sourceTree = "<group>";
+		};
+		966D668B1C24603F00BC58CB /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				966D668C1C24603F00BC58CB /* Categories */,
+				966D66921C24603F00BC58CB /* Constants */,
+				966D66951C24603F00BC58CB /* IQKeyboardManager.swift */,
+				966D66961C24603F00BC58CB /* IQKeyboardReturnKeyHandler.swift */,
+				966D66971C24603F00BC58CB /* IQTextView */,
+				966D66991C24603F00BC58CB /* IQToolbar */,
+				966D669E1C24603F00BC58CB /* Resources */,
+			);
+			name = IQKeyboardManagerSwift;
+			path = ../../IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		966D668C1C24603F00BC58CB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				966D668D1C24603F00BC58CB /* IQNSArray+Sort.swift */,
+				966D668E1C24603F00BC58CB /* IQUITextFieldView+Additions.swift */,
+				966D668F1C24603F00BC58CB /* IQUIView+Hierarchy.swift */,
+				966D66901C24603F00BC58CB /* IQUIViewController+Additions.swift */,
+				966D66911C24603F00BC58CB /* IQUIWindow+Hierarchy.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		966D66921C24603F00BC58CB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				966D66931C24603F00BC58CB /* IQKeyboardManagerConstants.swift */,
+				966D66941C24603F00BC58CB /* IQKeyboardManagerConstantsInternal.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		966D66971C24603F00BC58CB /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				966D66981C24603F00BC58CB /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		966D66991C24603F00BC58CB /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				966D669A1C24603F00BC58CB /* IQBarButtonItem.swift */,
+				966D669B1C24603F00BC58CB /* IQTitleBarButtonItem.swift */,
+				966D669C1C24603F00BC58CB /* IQToolbar.swift */,
+				966D669D1C24603F00BC58CB /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		966D669E1C24603F00BC58CB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				966D669F1C24603F00BC58CB /* Info.plist */,
+				966D66A01C24603F00BC58CB /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		969298E41C2A4EED00935B20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				969298EA1C2A4EED00935B20 /* Charts.framework */,
+				969298EC1C2A4EED00935B20 /* Charts.framework */,
+				969298EE1C2A4EED00935B20 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9699E5E11C3AD91D00549616 /* Photo Taking */ = {
+			isa = PBXGroup;
+			children = (
+				9699E5E71C3AD95C00549616 /* PhotoTakingHelper.swift */,
+			);
+			name = "Photo Taking";
+			sourceTree = "<group>";
+		};
+		9699E5EF1C3B6D7300549616 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				9699E5F01C3B6D9200549616 /* UserViewController.swift */,
+			);
+			name = Users;
+			sourceTree = "<group>";
+		};
+		96A2A3F71BE341D70021E32C /* SummaryVC */ = {
+			isa = PBXGroup;
+			children = (
+				96A2A3F81BE341F80021E32C /* SummaryViewController.swift */,
+				9676C74A1C279D8700E41CF8 /* CheckAnswersViewController.swift */,
+			);
+			name = SummaryVC;
+			sourceTree = "<group>";
+		};
+		96B0FA0A1BFC78CE00371660 /* GameHistoryVC */ = {
+			isa = PBXGroup;
+			children = (
+				96B0FA0B1BFC78E300371660 /* GameHistoryViewController.swift */,
+			);
+			name = GameHistoryVC;
+			sourceTree = "<group>";
+		};
+		96C4F3C61BF33DC3009E73CD /* ChallengeCategoryVC */ = {
+			isa = PBXGroup;
+			children = (
+				9660B1891C4019B4004028F4 /* CategoryChallengeViewController.swift */,
+			);
+			name = ChallengeCategoryVC;
+			sourceTree = "<group>";
+		};
+		96C4F3CB1BF34068009E73CD /* ChallengeSubCategoryVC */ = {
+			isa = PBXGroup;
+			children = (
+				9660B18B1C4069DD004028F4 /* SubCategoryChallengeViewController.swift */,
+			);
+			name = ChallengeSubCategoryVC;
+			sourceTree = "<group>";
+		};
+		96C4F3D31BF45439009E73CD /* TotalBadgesVC */ = {
+			isa = PBXGroup;
+			children = (
+				96C4F3D41BF45459009E73CD /* TotalBadgesViewController.swift */,
+			);
+			name = TotalBadgesVC;
+			sourceTree = "<group>";
+		};
+		96DC25FA1BF1C65D00D3F0CC /* BadgeVC */ = {
+			isa = PBXGroup;
+			children = (
+				96DC25FB1BF1C67500D3F0CC /* BadgeViewController.swift */,
+			);
+			name = BadgeVC;
+			sourceTree = "<group>";
+		};
+		96DD460F1BD60EE8006B97F2 /* ResetPasswordVC */ = {
+			isa = PBXGroup;
+			children = (
+				96DD46101BD60F01006B97F2 /* ResetPasswordViewController.swift */,
+			);
+			name = ResetPasswordVC;
+			sourceTree = "<group>";
+		};
+		96DD46121BD62078006B97F2 /* HelpVC */ = {
+			isa = PBXGroup;
+			children = (
+				96DD46131BD62088006B97F2 /* HelpViewController.swift */,
+			);
+			name = HelpVC;
+			sourceTree = "<group>";
+		};
+		96DD46181BD658AB006B97F2 /* ProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				96DD46191BD658C0006B97F2 /* ProfileViewController.swift */,
+				96DD46221BD71402006B97F2 /* EditProfileViewController.swift */,
+				969A7CA21C0630A500FCBD26 /* SliderMenuViewController.swift */,
+			);
+			name = ProfileVC;
+			sourceTree = "<group>";
+		};
+		96FBA8B31C29035B00B3D6F2 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				9699E5E91C3B325D00549616 /* FriendsViewController.swift */,
+				9699E5ED1C3B630E00549616 /* FriendProfileViewController.swift */,
+			);
+			name = Friends;
+			sourceTree = "<group>";
+		};
+		BA1DA1E61BA5335B00AF7A62 /* OwnScoreVC */ = {
+			isa = PBXGroup;
+			children = (
+				BA1DA1E71BA5337000AF7A62 /* OwnScoreViewController.swift */,
+				96BC5A391C34C6D800C59078 /* CheckViewController.swift */,
+			);
+			name = OwnScoreVC;
+			path = ../OwnScoreVC;
+			sourceTree = "<group>";
+		};
+		BA1DA1E91BA5343200AF7A62 /* HighScoreVC */ = {
+			isa = PBXGroup;
+			children = (
+				BA1DA1E61BA5335B00AF7A62 /* OwnScoreVC */,
+				BA1DA1EA1BA5344800AF7A62 /* HighScoreViewController.swift */,
+			);
+			path = HighScoreVC;
+			sourceTree = "<group>";
+		};
+		BA512E631BA59E13008AE31B /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BA512E641BA59E13008AE31B /* MBProgressHUD.h */,
+				BA512E651BA59E13008AE31B /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		BA512E671BA59E43008AE31B /* IQKeyBoardManager */ = {
+			isa = PBXGroup;
+			children = (
+				BA512E681BA59E43008AE31B /* IQBarButtonItem.h */,
+				BA512E691BA59E43008AE31B /* IQBarButtonItem.m */,
+				BA512E6A1BA59E43008AE31B /* IQKeyboardManager.bundle */,
+				BA512E6B1BA59E43008AE31B /* IQKeyboardManager.h */,
+				BA512E6C1BA59E43008AE31B /* IQKeyboardManager.m */,
+				BA512E6D1BA59E43008AE31B /* IQKeyboardManagerConstants.h */,
+				BA512E6E1BA59E43008AE31B /* IQKeyboardManagerConstantsInternal.h */,
+				BA512E6F1BA59E43008AE31B /* IQNSArray+Sort.h */,
+				BA512E701BA59E43008AE31B /* IQNSArray+Sort.m */,
+				BA512E711BA59E43008AE31B /* IQSegmentedNextPrevious.h */,
+				BA512E721BA59E43008AE31B /* IQSegmentedNextPrevious.m */,
+				BA512E731BA59E43008AE31B /* IQTextView.h */,
+				BA512E741BA59E43008AE31B /* IQTextView.m */,
+				BA512E751BA59E43008AE31B /* IQTitleBarButtonItem.h */,
+				BA512E761BA59E43008AE31B /* IQTitleBarButtonItem.m */,
+				BA512E771BA59E43008AE31B /* IQToolbar.h */,
+				BA512E781BA59E43008AE31B /* IQToolbar.m */,
+				BA512E791BA59E43008AE31B /* IQUIView+Hierarchy.h */,
+				BA512E7A1BA59E43008AE31B /* IQUIView+Hierarchy.m */,
+				BA512E7B1BA59E43008AE31B /* IQUIView+IQKeyboardToolbar.h */,
+				BA512E7C1BA59E43008AE31B /* IQUIView+IQKeyboardToolbar.m */,
+				BA512E7D1BA59E43008AE31B /* IQUIWindow+Hierarchy.h */,
+				BA512E7E1BA59E43008AE31B /* IQUIWindow+Hierarchy.m */,
+			);
+			path = IQKeyBoardManager;
+			sourceTree = "<group>";
+		};
+		BAB91B951BA271DB0033DCA6 = {
+			isa = PBXGroup;
+			children = (
+				BA512E8A1BA5C054008AE31B /* Default-568h@2x.png */,
+				BAB91BD51BA273010033DCA6 /* Frameworks */,
+				BAB91BA01BA271DB0033DCA6 /* SalesGame_swift */,
+				BAB91BB61BA271DB0033DCA6 /* SalesGame_swiftTests */,
+				BAB91B9F1BA271DB0033DCA6 /* Products */,
+				BAB91BFA1BA273B20033DCA6 /* SalesGame_swift-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		BAB91B9F1BA271DB0033DCA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAB91B9E1BA271DB0033DCA6 /* SalesGame_swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAB91BA01BA271DB0033DCA6 /* SalesGame_swift */ = {
+			isa = PBXGroup;
+			children = (
+				BAEA6E391BA3417700558565 /* Library */,
+				BAEA6E3B1BA3417700558565 /* UtilityClass */,
+				BAEA6E4D1BA3532300558565 /* GeneralClass.swift */,
+				9699E5E11C3AD91D00549616 /* Photo Taking */,
+				9604C2C51C3399AB007D3998 /* Modals */,
+				9604C2C61C3399F5007D3998 /* Views */,
+				BAEA6E3C1BA3417700558565 /* Controllers */,
+				BAB91BA31BA271DB0033DCA6 /* AppDelegate.swift */,
+				969A74501C01075300FCBD26 /* Main.storyboard */,
+				BA512E8F1BA5EA23008AE31B /* Main_ipad.storyboard */,
+				965109521C235317002B2B10 /* Launch Screen.storyboard */,
+				963932EA1C3459A700CD7677 /* Charts.xcodeproj */,
+				969298E31C2A4EED00935B20 /* Charts.xcodeproj */,
+				BAB91BAA1BA271DB0033DCA6 /* Images.xcassets */,
+				BAB91BA11BA271DB0033DCA6 /* Supporting Files */,
+			);
+			path = SalesGame_swift;
+			sourceTree = "<group>";
+		};
+		BAB91BA11BA271DB0033DCA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				969A7C9F1C062A6000FCBD26 /* SWRevealViewController.h */,
+				969A7CA01C062A6000FCBD26 /* SWRevealViewController.m */,
+				BAB91BA21BA271DB0033DCA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAB91BB61BA271DB0033DCA6 /* SalesGame_swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAB91BB91BA271DB0033DCA6 /* SalesGame_swiftTests.swift */,
+				BAB91BB71BA271DB0033DCA6 /* Supporting Files */,
+			);
+			path = SalesGame_swiftTests;
+			sourceTree = "<group>";
+		};
+		BAB91BB71BA271DB0033DCA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAB91BB81BA271DB0033DCA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAB91BD51BA273010033DCA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96C4F3C01BF2C422009E73CD /* LocalAuthentication.framework */,
+				BAB91BF81BA2739E0033DCA6 /* AdSupport.framework */,
+				BAB91BF61BA273970033DCA6 /* Social.framework */,
+				BAB91BF41BA2738F0033DCA6 /* Accounts.framework */,
+				BAB91BF21BA273850033DCA6 /* AudioToolbox.framework */,
+				BAB91BF01BA2737F0033DCA6 /* CFNetwork.framework */,
+				BAB91BEE1BA273760033DCA6 /* CoreGraphics.framework */,
+				BAB91BEC1BA2736F0033DCA6 /* CoreLocation.framework */,
+				BAB91BEA1BA273660033DCA6 /* Foundation.framework */,
+				BAB91BE81BA2735E0033DCA6 /* libsqlite3.dylib */,
+				BAB91BE61BA273520033DCA6 /* libz.1.1.3.dylib */,
+				BAB91BE41BA273480033DCA6 /* libstdc++.6.dylib */,
+				BAB91BE21BA273390033DCA6 /* QuartzCore.framework */,
+				BAB91BE01BA273330033DCA6 /* Security.framework */,
+				BAB91BDE1BA2732B0033DCA6 /* StoreKit.framework */,
+				BAB91BDC1BA273200033DCA6 /* SystemConfiguration.framework */,
+				BAB91BDA1BA2730C0033DCA6 /* UIKit.framework */,
+				BAB91BD61BA273010033DCA6 /* Bolts.framework */,
+				BAB91BD71BA273010033DCA6 /* Parse.framework */,
+			);
+			name = Frameworks;
+			path = ../SalerGame/Frameworks;
+			sourceTree = "<group>";
+		};
+		BAEA6E391BA3417700558565 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				966D668B1C24603F00BC58CB /* IQKeyboardManagerSwift */,
+				BA512E671BA59E43008AE31B /* IQKeyBoardManager */,
+				BA512E631BA59E13008AE31B /* MBProgressHUD */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		BAEA6E3B1BA3417700558565 /* UtilityClass */ = {
+			isa = PBXGroup;
+			children = (
+				BA512E921BA5EBEE008AE31B /* checkDevice.h */,
+				BA512E601BA59D6F008AE31B /* UtilityClass.h */,
+				BA512E611BA59D6F008AE31B /* UtilityClass.m */,
+			);
+			path = UtilityClass;
+			sourceTree = "<group>";
+		};
+		BAEA6E3C1BA3417700558565 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				96B0FA0A1BFC78CE00371660 /* GameHistoryVC */,
+				96DD46121BD62078006B97F2 /* HelpVC */,
+				BAEA6E411BA3417700558565 /* SettingVC */,
+				96DD460F1BD60EE8006B97F2 /* ResetPasswordVC */,
+				96DC25FA1BF1C65D00D3F0CC /* BadgeVC */,
+				96C4F3D31BF45439009E73CD /* TotalBadgesVC */,
+				BA1DA1E91BA5343200AF7A62 /* HighScoreVC */,
+				96DD46181BD658AB006B97F2 /* ProfileVC */,
+				96FBA8B31C29035B00B3D6F2 /* Friends */,
+				9699E5EF1C3B6D7300549616 /* Users */,
+				9659FC851BD7600E0068C72B /* ChallengeVC */,
+				9660B1941C431F31004028F4 /* Game VCs */,
+				BAEA6E3E1BA3417700558565 /* HomeVC */,
+				BAEA6E3F1BA3417700558565 /* Login VC */,
+				BAEA6E421BA3417700558565 /* SignUpVC */,
+			);
+			name = Controllers;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BAEA6E3D1BA3417700558565 /* CategoryVC */ = {
+			isa = PBXGroup;
+			children = (
+				BAEA6E491BA34B8000558565 /* AllCategoryViewController.swift */,
+				96D71D461BFA559100675A15 /* SearchCategoryViewController.swift */,
+				963D3D831C14AE5700486747 /* CategoryCollectionViewController.swift */,
+			);
+			name = CategoryVC;
+			path = AllCategoryVC;
+			sourceTree = "<group>";
+		};
+		BAEA6E3E1BA3417700558565 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				BAEA6E471BA347EB00558565 /* HomeViewController.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		BAEA6E3F1BA3417700558565 /* Login VC */ = {
+			isa = PBXGroup;
+			children = (
+				BAEA6E431BA3419800558565 /* LoginViewController.swift */,
+			);
+			name = "Login VC";
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		BAEA6E401BA3417700558565 /* QuestionVC */ = {
+			isa = PBXGroup;
+			children = (
+				BAEA6E4B1BA3523B00558565 /* QuestionViewController.swift */,
+			);
+			path = QuestionVC;
+			sourceTree = "<group>";
+		};
+		BAEA6E411BA3417700558565 /* SettingVC */ = {
+			isa = PBXGroup;
+			children = (
+				BA512E5E1BA597DD008AE31B /* SettingViewController.swift */,
+			);
+			path = SettingVC;
+			sourceTree = "<group>";
+		};
+		BAEA6E421BA3417700558565 /* SignUpVC */ = {
+			isa = PBXGroup;
+			children = (
+				BAEA6E451BA3425400558565 /* SignUpViewController.swift */,
+			);
+			path = SignUpVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAB91B9D1BA271DB0033DCA6 /* SalesGame_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAB91BBD1BA271DB0033DCA6 /* Build configuration list for PBXNativeTarget "SalesGame_swift" */;
+			buildPhases = (
+				BAB91B9A1BA271DB0033DCA6 /* Sources */,
+				BAB91B9B1BA271DB0033DCA6 /* Frameworks */,
+				BAB91B9C1BA271DB0033DCA6 /* Resources */,
+				96987DC51C2B406F00BBD701 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96987DC41C2B406F00BBD701 /* PBXTargetDependency */,
+			);
+			name = SalesGame_swift;
+			productName = SalesGame_swift;
+			productReference = BAB91B9E1BA271DB0033DCA6 /* SalesGame_swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAB91B961BA271DB0033DCA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					BAB91B9D1BA271DB0033DCA6 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 623ABBGQZ3;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BAB91B991BA271DB0033DCA6 /* Build configuration list for PBXProject "SalesGame_swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAB91B951BA271DB0033DCA6;
+			productRefGroup = BAB91B9F1BA271DB0033DCA6 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 969298E41C2A4EED00935B20 /* Products */;
+					ProjectRef = 969298E31C2A4EED00935B20 /* Charts.xcodeproj */;
+				},
+				{
+					ProductGroup = 963932EB1C3459A700CD7677 /* Products */;
+					ProjectRef = 963932EA1C3459A700CD7677 /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				BAB91B9D1BA271DB0033DCA6 /* SalesGame_swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		963932F11C3459A800CD7677 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 963932F01C3459A800CD7677 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		963932F31C3459A800CD7677 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 963932F21C3459A800CD7677 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		963932F51C3459A800CD7677 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 963932F41C3459A800CD7677 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		969298EA1C2A4EED00935B20 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 969298E91C2A4EED00935B20 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		969298EC1C2A4EED00935B20 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 969298EB1C2A4EED00935B20 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		969298EE1C2A4EED00935B20 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 969298ED1C2A4EED00935B20 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAB91B9C1BA271DB0033DCA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965109531C235317002B2B10 /* Launch Screen.storyboard in Resources */,
+				BA512E911BA5EA23008AE31B /* Main_ipad.storyboard in Resources */,
+				969A74521C01075300FCBD26 /* Main.storyboard in Resources */,
+				BA512E8B1BA5C054008AE31B /* Default-568h@2x.png in Resources */,
+				BAB91BAB1BA271DB0033DCA6 /* Images.xcassets in Resources */,
+				966D66B01C24603F00BC58CB /* IQKeyboardManager.bundle in Resources */,
+				966D66AF1C24603F00BC58CB /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAB91B9A1BA271DB0033DCA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				963D3D801C14ACA200486747 /* CategoryCollectionViewCell.swift in Sources */,
+				969A7CA11C062A6000FCBD26 /* SWRevealViewController.m in Sources */,
+				96D71D471BFA559100675A15 /* SearchCategoryViewController.swift in Sources */,
+				966D66AC1C24603F00BC58CB /* IQTitleBarButtonItem.swift in Sources */,
+				96DD46231BD71402006B97F2 /* EditProfileViewController.swift in Sources */,
+				9660B18F1C407606004028F4 /* StartChallengeViewController.swift in Sources */,
+				BA512E811BA59E43008AE31B /* IQKeyboardManager.m in Sources */,
+				966D66AA1C24603F00BC58CB /* IQTextView.swift in Sources */,
+				96DC25FE1BF1C8C200D3F0CC /* BadgeTableViewCell.swift in Sources */,
+				966D66A41C24603F00BC58CB /* IQUIViewController+Additions.swift in Sources */,
+				9660B19C1C435A58004028F4 /* Challenge.swift in Sources */,
+				9660B1A01C44407B004028F4 /* ResumeChallengeViewController.swift in Sources */,
+				969A7CA91C06643000FCBD26 /* BackTableVC.swift in Sources */,
+				9604C2CD1C33A0C0007D3998 /* Badges.swift in Sources */,
+				9676C74B1C279D8700E41CF8 /* CheckAnswersViewController.swift in Sources */,
+				96A2A3F91BE341F80021E32C /* SummaryViewController.swift in Sources */,
+				963D3D8E1C19418A00486747 /* RankingsTableViewCell.swift in Sources */,
+				963D3D821C14AD0200486747 /* SubCategoryViewController.swift in Sources */,
+				966D66A51C24603F00BC58CB /* IQUIWindow+Hierarchy.swift in Sources */,
+				966D66A21C24603F00BC58CB /* IQUITextFieldView+Additions.swift in Sources */,
+				BA512E831BA59E43008AE31B /* IQSegmentedNextPrevious.m in Sources */,
+				96DD46141BD62088006B97F2 /* HelpViewController.swift in Sources */,
+				BA512E851BA59E43008AE31B /* IQTitleBarButtonItem.m in Sources */,
+				BA512E881BA59E43008AE31B /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				96DD461A1BD658C0006B97F2 /* ProfileViewController.swift in Sources */,
+				96FBA8B91C29048C00B3D6F2 /* Friend.swift in Sources */,
+				BAEA6E4A1BA34B8000558565 /* AllCategoryViewController.swift in Sources */,
+				BA512E5F1BA597DD008AE31B /* SettingViewController.swift in Sources */,
+				969A7CA31C0630A500FCBD26 /* SliderMenuViewController.swift in Sources */,
+				96BC5A3A1C34C6D800C59078 /* CheckViewController.swift in Sources */,
+				96B0FA0E1BFC79AC00371660 /* GameHistoryTableViewCell.swift in Sources */,
+				96DD46111BD60F01006B97F2 /* ResetPasswordViewController.swift in Sources */,
+				BAEA6E4E1BA3532300558565 /* GeneralClass.swift in Sources */,
+				966D66A81C24603F00BC58CB /* IQKeyboardManager.swift in Sources */,
+				9660B19A1C43580B004028F4 /* ChallengeHistoryViewController.swift in Sources */,
+				963D3D841C14AE5700486747 /* CategoryCollectionViewController.swift in Sources */,
+				BAEA6E461BA3425400558565 /* SignUpViewController.swift in Sources */,
+				966D66A61C24603F00BC58CB /* IQKeyboardManagerConstants.swift in Sources */,
+				9660B1971C432932004028F4 /* ScoreChallengeViewController.swift in Sources */,
+				BAEA6E4C1BA3523B00558565 /* QuestionViewController.swift in Sources */,
+				965109551C23C3B4002B2B10 /* ChallengeOptionsViewController.swift in Sources */,
+				96B1C2861C48BB490062E521 /* SubCategoryListViewController.swift in Sources */,
+				BA512E841BA59E43008AE31B /* IQTextView.m in Sources */,
+				966D66A71C24603F00BC58CB /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				966D66AE1C24603F00BC58CB /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				965778BD1C3C4E0800282B9F /* Question.swift in Sources */,
+				966D66A91C24603F00BC58CB /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				BA1DA1ED1BA54DBB00AF7A62 /* HighScoreTableViewCell.swift in Sources */,
+				BAEA6E441BA3419800558565 /* LoginViewController.swift in Sources */,
+				9699E5F31C3B6E1D00549616 /* UserTableViewCell.swift in Sources */,
+				9660B18A1C4019B4004028F4 /* CategoryChallengeViewController.swift in Sources */,
+				BA512E821BA59E43008AE31B /* IQNSArray+Sort.m in Sources */,
+				9699E5EC1C3B5E4C00549616 /* FriendTableViewCell.swift in Sources */,
+				BA512E621BA59D6F008AE31B /* UtilityClass.m in Sources */,
+				9699E5F11C3B6D9200549616 /* UserViewController.swift in Sources */,
+				BA512E871BA59E43008AE31B /* IQUIView+Hierarchy.m in Sources */,
+				BA512E7F1BA59E43008AE31B /* IQBarButtonItem.m in Sources */,
+				9651094F1C1E364B002B2B10 /* Category.swift in Sources */,
+				9660B19E1C435FB6004028F4 /* ChallengeTableViewCell.swift in Sources */,
+				963D3D861C15039D00486747 /* SubCategoryCollectionViewCell.swift in Sources */,
+				9660B1931C430D2B004028F4 /* QuestionChallengeViewController.swift in Sources */,
+				96DC25FC1BF1C67500D3F0CC /* BadgeViewController.swift in Sources */,
+				BAB91BA41BA271DB0033DCA6 /* AppDelegate.swift in Sources */,
+				966D66AD1C24603F00BC58CB /* IQToolbar.swift in Sources */,
+				966D66AB1C24603F00BC58CB /* IQBarButtonItem.swift in Sources */,
+				BA512E891BA59E43008AE31B /* IQUIWindow+Hierarchy.m in Sources */,
+				BA512E861BA59E43008AE31B /* IQToolbar.m in Sources */,
+				9699E5EE1C3B630E00549616 /* FriendProfileViewController.swift in Sources */,
+				BA512E661BA59E13008AE31B /* MBProgressHUD.m in Sources */,
+				96D71D4C1BFAAF3800675A15 /* SearchSubCategoryViewController.swift in Sources */,
+				BA1DA1E81BA5337000AF7A62 /* OwnScoreViewController.swift in Sources */,
+				96C4F3D71BF45541009E73CD /* TotalBadgesTableViewCell.swift in Sources */,
+				9660B18C1C4069DD004028F4 /* SubCategoryChallengeViewController.swift in Sources */,
+				9604C2CB1C339EE8007D3998 /* SubCategory.swift in Sources */,
+				BAEA6E481BA347EB00558565 /* HomeViewController.swift in Sources */,
+				9652C8701C3F225E0037A49C /* FriendChallengeViewController.swift in Sources */,
+				96B0FA0C1BFC78E300371660 /* GameHistoryViewController.swift in Sources */,
+				966D66A11C24603F00BC58CB /* IQNSArray+Sort.swift in Sources */,
+				965778B61C3B977600282B9F /* Game.swift in Sources */,
+				963D3D8C1C193DB600486747 /* RankingsViewController.swift in Sources */,
+				9699E5E81C3AD95C00549616 /* PhotoTakingHelper.swift in Sources */,
+				BA1DA1EB1BA5344800AF7A62 /* HighScoreViewController.swift in Sources */,
+				9699E5EA1C3B325D00549616 /* FriendsViewController.swift in Sources */,
+				96C4F3C31BF304CE009E73CD /* SelectSubCategoryViewController.swift in Sources */,
+				965109571C23C730002B2B10 /* ChallengeRandomViewController.swift in Sources */,
+				96FBA8B21C28ED6E00B3D6F2 /* ReviewTableViewCell.swift in Sources */,
+				966D66A31C24603F00BC58CB /* IQUIView+Hierarchy.swift in Sources */,
+				96C4F3D51BF45459009E73CD /* TotalBadgesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96987DC41C2B406F00BBD701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Charts-iOS";
+			targetProxy = 96987DC31C2B406F00BBD701 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		969A74501C01075300FCBD26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				969A74511C01075300FCBD26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA512E8F1BA5EA23008AE31B /* Main_ipad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA512E901BA5EA23008AE31B /* Base */,
+			);
+			name = Main_ipad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAB91BBB1BA271DB0033DCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akuma Ukpo (AS932CM3YX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Akuma Ukpo (AS932CM3YX)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "c629fdc0-dd4d-42e9-bc74-6108f5918451";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAB91BBC1BA271DB0033DCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Akuma Ukpo (AS932CM3YX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Akuma Ukpo (AS932CM3YX)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "c629fdc0-dd4d-42e9-bc74-6108f5918451";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAB91BBE1BA271DB0033DCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: INSITEHUB, LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: INSITEHUB, LLC";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framewroks",
+					/Users/akshay/Documents/SalesGame/Frameworks,
+				);
+				INFOPLIST_FILE = SalesGame_swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clang+llvm-3.7.0-x86_64-apple-darwin/lib",
+					"$(PROJECT_DIR)/clang+llvm-3.7.0-x86_64-apple-darwin/lib/clang/3.7.0/lib/darwin",
+					"$(PROJECT_DIR)/clang+llvm-3.7.0-x86_64-apple-darwin/lib/clang/3.7.0/lib/macho_embedded",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.salesGame.quiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "558abe39-f9c0-4b18-a5a5-1263f2893281";
+				SWIFT_OBJC_BRIDGING_HEADER = "SalesGame_swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAB91BBF1BA271DB0033DCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: INSITEHUB, LLC";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framewroks",
+					/Users/akshay/Documents/SalesGame/Frameworks,
+				);
+				INFOPLIST_FILE = SalesGame_swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clang+llvm-3.7.0-x86_64-apple-darwin/lib",
+					"$(PROJECT_DIR)/clang+llvm-3.7.0-x86_64-apple-darwin/lib/clang/3.7.0/lib/darwin",
+					"$(PROJECT_DIR)/clang+llvm-3.7.0-x86_64-apple-darwin/lib/clang/3.7.0/lib/macho_embedded",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.salesGame.quiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "558abe39-f9c0-4b18-a5a5-1263f2893281";
+				SWIFT_OBJC_BRIDGING_HEADER = "SalesGame_swift-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAB91B991BA271DB0033DCA6 /* Build configuration list for PBXProject "SalesGame_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB91BBB1BA271DB0033DCA6 /* Debug */,
+				BAB91BBC1BA271DB0033DCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB91BBD1BA271DB0033DCA6 /* Build configuration list for PBXNativeTarget "SalesGame_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB91BBE1BA271DB0033DCA6 /* Debug */,
+				BAB91BBF1BA271DB0033DCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAB91B961BA271DB0033DCA6 /* Project object */;
+}
