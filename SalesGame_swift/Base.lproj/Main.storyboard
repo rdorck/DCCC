@@ -109,9 +109,6 @@
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
                                 </textAttributes>
-                                <items>
-                                    <navigationItem title="Login" id="naB-6d-rbP"/>
-                                </items>
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8kc-JQ-hQj">
                                 <rect key="frame" x="135" y="498" width="50" height="50"/>
@@ -121,15 +118,15 @@
                                     <action selector="beginTouchIDAuthCheck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="emY-ya-sp2"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Cuf-iP-Ye5">
-                                <rect key="frame" x="0.0" y="90" width="320" height="100"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DCCC banner" id="Cuf-iP-Ye5">
+                                <rect key="frame" x="0.0" y="34" width="320" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.062745098040000002" green="0.35294117650000001" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="kqY-oE-gHI"/>
-                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
                         <outlet property="btnLogin" destination="8yl-sa-oT5" id="WQS-hU-oMQ"/>
                         <outlet property="btnResetPassword" destination="Plx-Ch-QlQ" id="SHn-zI-UNV"/>
@@ -3998,6 +3995,7 @@
         <!--Navigation Controller-->
         <scene sceneID="nql-4w-sFk">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BeG-XP-g3m" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController storyboardIdentifier="MainNavigation" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="VvW-hH-AWq" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
@@ -4010,7 +4008,6 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="bYt-tB-6Z8"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BeG-XP-g3m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-787" y="495"/>
         </scene>
@@ -4665,6 +4662,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="DCCC banner" width="250" height="119"/>
         <image name="Fingerprint Scan-100" width="100" height="100"/>
         <image name="add photo-30" width="919" height="931"/>
         <image name="background" width="320" height="568"/>
